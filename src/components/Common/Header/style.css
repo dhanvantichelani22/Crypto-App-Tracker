@@ -1,0 +1,75 @@
+.heading{
+  color:var(--deeppink);
+  font-size:1.2rem;
+}
+.navbar{
+  top:0;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding:1.5rem 3rem;
+   position:sticky;
+   z-index: 100;
+   background-color: var(--blackk);
+}
+.mobile-drawer{
+  display:none;
+}
+.links{
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  gap:1.5rem
+}
+.link{
+    display:block;
+  }
+  .link:hover{
+    color:var(--deeppink);
+    transition:all 0.3s;
+  }
+.link{
+  color: var(--hotpink);
+  /* background-color: black; */
+  font-weight: 800;
+  font-size: 1rem;
+}
+.iconlink{
+  color: var(--gold);
+  font-weight: 800;
+  font-size: 1rem;
+}
+.linkin:hover{
+  color:var(--pink);
+  transition:all 0.3s;
+  font-size:1.1rem;
+}
+.linkin{
+  color: var(--gold);
+  /* background-color: black; */
+  font-weight: 800;
+  font-size: 1rem;
+}
+/* https://mui.com/material-ui/react-drawer/ */
+
+@media only screen and (max-width: 800px) {
+  .links{
+    display:none;
+  }
+  .mobile-drawer{
+    display:block;
+  }
+  .navbar{
+    padding: 1.5rem;
+  }
+  .heading{
+    font-size: 1rem;
+  }
+  .drawer-div{
+    width:15vw;
+    height:100vh;
+    padding: 1.5rem;
+    /* color: var(--deeppink); */
+    background-color: var(--black);
+  }
+}

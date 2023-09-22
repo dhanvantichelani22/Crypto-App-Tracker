@@ -1,0 +1,8 @@
+.pagination-div {
+    display: flex;
+    margin-bottom:2.5rem;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1rem;
+    align-items: center;
+  }

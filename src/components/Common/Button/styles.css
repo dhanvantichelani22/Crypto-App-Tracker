@@ -1,0 +1,35 @@
+.dash-btn{
+  background-color: var(--darkpink);
+  /* padding: 0.5rem; */
+  padding: 0.5rem 1.5rem;
+  color: var(--deeppink);
+  border-radius: 0.8rem;
+  font-weight: 700;
+  border:3px solid var(--darkpink);
+  text-align: center;
+  min-width: 100px;
+  text-transform: capitalize;
+}
+.dash-btn:hover{
+    cursor: pointer;
+    color: var(--gold);
+    box-shadow:6px 5px 15px #ef319d;
+    transition: all 0.3s;
+}
+.share-btn{
+  background-color: var(--black);
+  /* padding: 0.5rem; */
+  padding: 0.5rem 1.5rem;
+  border:3px solid var(--darkpink);
+  color: var(--gold);
+  border-radius: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  min-width: 100px;
+  text-transform: capitalize;
+}
+.share-btn:hover{
+    cursor: pointer;
+    background-color: var(--darkpink);
+    transition: all 0.3s;
+}

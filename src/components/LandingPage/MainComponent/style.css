@@ -1,0 +1,121 @@
+.realtime-heading{
+    color: var(--gold);
+}
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 3rem;
+
+}
+.realtime-heading,.track-crypto-heading{
+    font-size: 7rem;
+    margin:0;   
+}
+.track-crypto-heading{
+    font-size: 5.5rem;
+    color:var(--pink);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:var(--pink);
+}
+.info-text{
+    color:var(--grey);
+   font-size:1rem;
+}
+.track-crypto-heading:hover{
+    color:var(--black);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:var(--pink);
+    transition: all 0.3s;
+}
+.btn-flex{
+    display: flex;
+    justify-content:flex-start;
+    gap:1.5rem;
+    align-items: center;
+    margin: 2rem;
+}
+.right-component{
+    width:50%;
+    position: relative;
+    padding: 1rem;
+}
+.iphone{
+  position: absolute;
+  z-index: 100;
+  min-width: 300px;
+  height:38rem;
+  width: 50%;
+  right: 0;
+}
+.gradient{
+   position: absolute;
+      height:29rem;
+   border-radius: 36px;
+   min-width: 250px;
+  width: 35%;
+  top: 7rem;
+  right: 0;
+}
+@media only screen and (max-width: 1250px) {
+    .realtime-heading,.track-crypto-heading{
+        font-size: 5rem;
+        margin:0;   
+    }
+    .gradient{
+       height: 24rem;
+    }
+    .iphone{
+        height: 28rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .iphone{
+        min-width: 250px;
+        width: 50%;
+      }
+      .gradient{
+         min-width: 200px;
+        height: 23rem;
+        top: 6rem;
+        
+      }
+}
+
+@media only screen and (max-width:800px) {
+    .flex-info{
+        flex-direction: column;
+    }
+    .gradient{
+        height: 22rem;
+    }
+    .right-component{
+        /* align center */
+        display:block;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .iphone{
+        left: 15%;
+        height: 28rem;
+    }
+    .gradient{
+        left: 25%;
+    }
+     .left-component{ /* Aligned center head */
+     width:100%;
+    }
+    .info-text{  /* Aligned center para*/
+        text-align: center;
+    }
+    .btn-flex{  /* Aligned center btn*/
+        justify-content: center;
+    }
+    .realtime-heading,.track-crypto-heading{
+        font-size: 4rem;
+        text-align: center;   
+    }
+    .track-crypto-heading{
+        -webkit-text-stroke-width: 1px;
+    }
+}

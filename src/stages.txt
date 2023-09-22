@@ -1,0 +1,20 @@
+1. Basic React project setup and walk through of what we’ll be building + coingecko api documentation
+2. Setting up Folder Structure, adding global styling, fonts, root variables , etc. Also adding react router.
+3. Making the Header - Adding mui drawer as the mobile navbar
+4. Making Landing page components
+5. Making the Dashboard page - Adding mui tabs to the project.
+6. Calling the Coingecko api to fetch coins
+7. Making grid and list views
+8. Making Coin page
+9. Adding chart js to coin page
+10. Adding MUI Select to filter days , and also adding mui toggle to toggle between coin data
+11. Making coin compare page
+12. Adding additional framer motion animations
+13. Adding light/dark mode and custom mouse follower
+14. Adding footer + adding meta tags for seo, making the website link shareable by using react-webshare
+15. Hosting on netlify
+
+Project link: https://crypto-dashboard-avi.netlify.app/
+Figma design: https://www.figma.com/file/zHjG17R9K9VI61xm7qRa2l?comments-enabled=1
+Design inspiration: https://dribbble.com/
+API used: https://www.coingecko.com/en/api/documentation
