@@ -17,7 +17,7 @@
     --skyblue:#3a80e9;
     --saddlebrown:#8B4513;
     --white:#fff;
-    --grey:#888;
+    --grey:#3e3737;
     --black:#0c0b0b;
     --blackk:#000;
     --hotpink:#FF69B4;
@@ -125,8 +125,17 @@ body{
  }
  
  /* coin.js file style */
- .coin-Data{
+ .grey-wrapper{
    background-color:var(--darkgrey);
-   margin:1.5rem;
-   border-radius:0.5rem;
+   margin:1.5rem auto;
+   border-radius:0.8rem;
+   display:block;
+   width: 90%;
+   padding:1rem 1rem;
+ }
+ .coin-days-flex{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin:1.5rem;
  }

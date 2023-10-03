@@ -1,0 +1,19 @@
+.coin-desc a:hover{
+  color: var(--skyblue);
+}
+.coin-desc a{
+    color: #f1e46a;
+    text-decoration: underline;
+}
+.coin-heading{
+    margin:10px;
+    color: var(--gold);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.coin-desc {
+    margin:15px; 
+    color: #efef46;
+    padding-bottom:0.5rem;
+    cursor: pointer;
+}

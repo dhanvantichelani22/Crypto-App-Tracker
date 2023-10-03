@@ -4,32 +4,35 @@ import Pagination from '@mui/material/Pagination';
 // import Stack from '@mui/material/Stack';
 import "./style.css"
 
-export default function PaginationComponent() {
-  const [page, setPage]= useState(1);
+function PaginationComponent({pageNumber,handlePageChange}) {
+  // const [page, setPage]= useState(1);
   
-  const handleChange = (event, value) => {
-    setPage(value);
-  };
+  // const handleChange = (event, value) => {
+  //   setPage(value);
+  // };
 
   return (
     <div className='pagination-div'>
       {/* <Typography>Page: {page}</Typography> */}
-      <Pagination count={10} page={page} onChange={(event, value)=>handleChange(event, value)}
+      <Pagination count={10} 
+      page={pageNumber} 
+      onChange={handlePageChange}
       sx={{
-        color: "var(--white)",
+        color: "var(--gold)",
         "& .Mui-selected ": {
-          backgroundColor: "var(--gold) !important",
-          color:"#FF0000  !important",
+          backgroundColor: "var(--pink)!important",
+          color:"white !important",
           borderColor: "var(--pink)!important ",
         },
         "& .MuiPaginationItem-ellipsis": {
-          border: "0px solid var(--grey) !important",
+          border: "0px solid var(--gold) !important",
         },
         "& .MuiPaginationItem-text": {
-          color: "var(--white)",
-          border: "1px solid var(--grey)",
+          color: "var(--gold)",
+          border: "2px solid var(--pink)",
         },
       }} />
       </div>
   );
 }
+export default PaginationComponent;

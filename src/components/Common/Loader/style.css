@@ -6,5 +6,7 @@
     align-items: center;
     background-color: var(--black);
     z-index: 1000;
-    position: absolute;
+    position:fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }

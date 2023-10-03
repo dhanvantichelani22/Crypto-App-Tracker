@@ -14,6 +14,7 @@ import Drawer from '@mui/material/Drawer';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
+import HeaderCoin from '../HeaderCoin';
 
 export default function TemporaryDrawer() {
   const [open, setOpen] = useState(false);
@@ -26,6 +27,7 @@ export default function TemporaryDrawer() {
           <Drawer anchor={"left"} open={open} onClose={()=>setOpen(false)}>
             {/* <h1>h111</h1> */}
           <div className='drawer-div'>
+            <HeaderCoin/>
           <Link to="/">
           <p className="linkin">Home</p>
           </Link>

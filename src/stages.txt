@@ -18,3 +18,4 @@ Project link: https://crypto-dashboard-avi.netlify.app/
 Figma design: https://www.figma.com/file/zHjG17R9K9VI61xm7qRa2l?comments-enabled=1
 Design inspiration: https://dribbble.com/
 API used: https://www.coingecko.com/en/api/documentation
+Chart Documentation: https://www.chartjs.org/docs/latest/samples/line/multi-axis.html 

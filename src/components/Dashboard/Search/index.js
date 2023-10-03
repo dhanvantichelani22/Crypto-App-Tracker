@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./styles.css"
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import SearchRounded from '@mui/icons-material/SearchRounded';
 
 function Search({search,onSearchChange}) {
   
