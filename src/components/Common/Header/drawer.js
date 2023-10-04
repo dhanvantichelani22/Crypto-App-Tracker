@@ -1,16 +1,8 @@
 import React,{useState} from 'react';
 import "./style.css";
+// import DarkMode from '../DarkMode';
 // import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
-// import Button from '@mui/material/Button';
-// import List from '@mui/material/List';
-// import Divider from '@mui/material/Divider';
-// import ListItem from '@mui/material/ListItem';
-// import ListItemButton from '@mui/material/ListItemButton';
-// import ListItemIcon from '@mui/material/ListItemIcon';
-// import ListItemText from '@mui/material/ListItemText';
-// import InboxIcon from '@mui/icons-material/MoveToInbox';
-// import MailIcon from '@mui/icons-material/Mail';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
@@ -40,6 +32,7 @@ export default function TemporaryDrawer() {
           <Link to="/dashboard">
           <p className="linkin">Dashboard</p>
           </Link>
+          {/* <DarkMode/> */}
       </div>
           </Drawer>
     </div>

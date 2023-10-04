@@ -1,5 +1,5 @@
 .grid-container{
-    width: 280px;
+    width: 285px;
     /* height:250px; */
     background-color: var(--darkgrey);
     border:2px solid var(--darkgrey);
@@ -124,3 +124,36 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+.watchlist-icon {
+    padding: 0.5rem;
+    display: block;
+    color:var(--green);
+    font-size: 1rem !important;
+    margin-left: auto;
+    border: 2px solid var(--green);
+    border-radius: 3rem;
+    font-weight: 600;
+  }
+  
+  .watchlist-icon:hover {
+    background-color: var(--lime);
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  
+  .watchlist-icon-red {
+    color: var(--red);
+    border: 2px solid var(--red);
+  }
+  
+  .watchlist-icon-red:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  @media only screen and (max-width: 800px) {
+    .watchlist-icon {
+      font-size: 1rem !important;
+      padding: 0.35rem;
+    }
+  }

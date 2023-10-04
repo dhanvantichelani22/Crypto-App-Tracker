@@ -51,27 +51,30 @@
 // }
 // export default HeaderCoin;
 
-import * as React from 'react';
+import React,{useState} from 'react';
 import Box from '@mui/material/Box';
+import "./style.css";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 export default function BasicSelect() {
-  const [age, setAge] = React.useState('');
+  const [age, setAge] = useState('');
+  const {} = Crypto
 
   const handleChange = (event) => {
     setAge(event.target.value);
   };
 
   return (
-    <Box sx={{ width:100,height:50,backgroundColor:"var(--gold)",color:"var(--red)"}}>
+    <div className='ChangeCoin'>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Select</InputLabel>
+        <InputLabel id="demo-simple-select-label" sx={{color:"var(--grey)"}}>Select</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
+          sx={{color:"var(--gold)"}}
           value={age}
           label="Age"
           onChange={handleChange}
@@ -80,6 +83,6 @@ export default function BasicSelect() {
           <MenuItem value={"INR"}>INR</MenuItem>
         </Select>
       </FormControl>
-    </Box>
+    </div>
   );
 }

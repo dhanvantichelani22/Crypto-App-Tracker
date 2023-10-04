@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from "../components/Common/Header";
 import MainComponent from "../components/LandingPage/MainComponent";
-// import HeaderCoin from "../components/Common/HeaderCoin";
+import Footer from "../components/Common/Footer";
 
 function HomePage() {
   return (
     <div>
         <Header/>
-        {/* <HeaderCoin/> */}
       <MainComponent/>
+      <Footer/>
     </div>
   )
 }

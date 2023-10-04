@@ -19,7 +19,7 @@
     -webkit-text-stroke-color:var(--pink);
 }
 .info-text{
-    color:var(--grey);
+    color:rgb(137, 133, 133);
    font-size:1rem;
 }
 .track-crypto-heading:hover{
@@ -43,18 +43,19 @@
 .iphone{
   position: absolute;
   z-index: 100;
-  min-width: 300px;
-  height:38rem;
-  width: 50%;
+  min-width:280px;
+  height:33rem;
+  width:45%;
   right: 0;
 }
 .gradient{
    position: absolute;
-      height:29rem;
+      height:30rem;
    border-radius: 36px;
-   min-width: 250px;
-  width: 35%;
-  top: 7rem;
+   min-width: 200px;
+  width: 30%;
+  top: 2.5rem;
+  bottom: 2.5rem;
   right: 0;
 }
 @media only screen and (max-width: 1250px) {

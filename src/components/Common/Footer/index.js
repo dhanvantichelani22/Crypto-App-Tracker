@@ -1,11 +1,36 @@
-// https://docs.google.com/document/u/0/d/1TelMimi5rHz5G14RbJDNnwyvul38bl6qnuKUN2cpcGA/mobilebasic
+import React from "react";
 import "./style.css";
-import React from 'react'
+import FacebookIcon from "@mui/icons-material/Facebook";
+import EmailIcon from "@mui/icons-material/Email";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
-const index = () => {
+function Footer() {
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
   return (
-    <div>FOOOTER HEADER</div>
-  )
+    <div className="footer">
+      <h2 className="logo" onClick={() => topFunction()}>
+        CryptoTracker<span>.</span>
+      </h2>
+      <div className="social-links">
+        <a href="https://facebook.com">
+          <FacebookIcon className="social-link" />
+        </a>
+        <a href="mailto:dhanvantichelani865@gmail.com">
+          <EmailIcon className="social-link" />
+        </a>
+        <a href="https://www.twitter.com">
+          <TwitterIcon className="social-link" />
+        </a>
+        <a href="https://www.instagram.com">
+          <InstagramIcon className="social-link" />
+        </a>
+      </div>
+    </div>
+  );
 }
 
-export default index
+export default Footer;
